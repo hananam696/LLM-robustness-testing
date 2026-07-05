@@ -21,6 +21,11 @@ Across all evaluations, the models generally performed well on baseline tasks bu
 # Repository Structure
 
 ```text
+├── images/
+│   ├── mwp-performance.png
+│   ├── reasoning-performance.png
+│   └── coding-heatmap.png
+│
 ├── mathematical-word-problems/
 │   ├── gsm-symbolic/
 │   │   ├── MWP_Gulati_Paper.xlsx
@@ -35,7 +40,8 @@ Across all evaluations, the models generally performed well on baseline tasks bu
 │   ├── LLM_Code_Testing.xlsx
 │   └── Coding_Robustness_Report.docx
 │
-└── STs-Project.xlsx
+├── STs-Project.xlsx
+└── README.md
 ```
 
 ---
@@ -74,6 +80,10 @@ Ten prompt variations were created from a baseline mathematical word problem.
 | ChatGPT | 7 / 10 | 70% |
 | DeepSeek | 7 / 10 | 70% |
 
+<p align="center">
+  <img src="images/mwp-performance.png" width="650" alt="MWP Accuracy Comparison">
+</p>
+
 **Key Findings**
 
 - All models correctly solved the baseline and symbolic variations (V1–V3).
@@ -102,6 +112,10 @@ The questions included:
 | ChatGPT | 90% |
 | Gemini | 90% |
 | DeepSeek | 90% |
+
+<p align="center">
+  <img src="images/reasoning-performance.png" width="650" alt="Reasoning Tasks Accuracy">
+</p>
 
 **Key Findings**
 
@@ -139,6 +153,10 @@ Ten prompt variations of the same coding problem were created while keeping the 
 | ChatGPT | 8 / 10 |
 | Claude | 8 / 10 |
 | DeepSeek | 7 / 10 |
+
+<p align="center">
+  <img src="images/coding-heatmap.png" width="700" alt="Coding Robustness Heatmap">
+</p>
 
 **Key Findings**
 
